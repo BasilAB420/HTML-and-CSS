@@ -1,0 +1,13 @@
+a {
+    color: orange;
+  }
+  li {
+    color: blue;
+  }
+  ul li a {
+    color: red;
+  }
+
+  .Black {
+    color: black;
+  }

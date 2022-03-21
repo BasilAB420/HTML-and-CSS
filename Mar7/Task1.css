@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 98%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    border: 18px solid goldenrod;
+}
+
+div div {
+    width: calc(100%/9);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+.brown {
+    background-color: brown;
+}

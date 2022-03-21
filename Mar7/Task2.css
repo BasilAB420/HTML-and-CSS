@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid;
+    border-color: gold;
+
+}
+div div{
+    width: calc(100%/4);
+    height: 200px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+
+}
+.perpule{
+    background-color: purple;
+
+}
+.grey{
+    background-color: grey;
+
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+background-color: orange;
+}
+.pink{
+background-color: pink;
+}
+.red{
+background-color: red;
+}
+.deepred{
+background-color: rgb(87, 2, 2);
+}
+.black{
+    background-color: black;
+    }

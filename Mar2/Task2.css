@@ -1,0 +1,13 @@
+.pokemon{
+    font-size: large;
+    background-color: red;
+}
+.p{
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.ip{
+    width: 200px;
+
+}

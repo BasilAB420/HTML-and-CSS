@@ -1,0 +1,38 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: Car 5s ease infinite;
+    background-size: 200% 200%;
+    position: relative;
+}
+
+@keyframes Car {
+    0% {
+        background-position: 10% 0%;
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        background-position: 91% 100%;
+        top: 0px;
+        left: 200px;
+    }
+    50% {
+        background-position: 10% 0%;
+        top: 200px;
+        left: 200px;
+    }
+    75% {
+        background-position: 10% 0%;
+        top: 200px;
+        left: 0px;
+    }
+    100% {
+        background-position: 10% 0%;
+        background-position: 10% 0%;
+        top: 0px;
+        left: 0px;
+    }
+}

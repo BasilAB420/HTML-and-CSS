@@ -1,0 +1,8 @@
+.img {
+height: 20cm;
+width: 5cm;
+position: fixed;
+top: 15px;
+left: 85%;
+border: 3px solid black;
+}
